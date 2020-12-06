@@ -1,0 +1,122 @@
+nav{
+  margin-left:350px;
+  display:inline-flex;
+  font-size:16pt;
+  font-family:'Oswald',sans-serif;
+    }
+    a{
+text-decoration:none;
+  text-align:center;
+  width:120px;
+  color:black;
+}
+a:nth-child(1) ~ div{
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+  }
+
+a:nth-child(2):hover {
+  color:red;
+}
+
+a:nth-child(4):hover {
+  color:green;
+}
+.aw{
+  margin-bottom:50px;
+}
+.eb{
+  margin-top:50px;
+  width:100%;
+}
+.text{
+  display:flex;
+}
+  .agash{
+  font-color:black;
+  display:flex;
+  margin-top:200px;
+  margin-bottom:75px;
+  margin-left:100px;
+}
+.a{
+  margin-left:175px;
+}
+.b{
+  margin-left:175px;
+}
+.c{
+  margin-left:175px;
+}
+.d{
+  margin-left:175px;
+}
+.es{
+  margin-top:1400px;
+  width:100%;
+}
+.product {
+  background-color: white;
+  display:flex;
+}
+a:hover img.thumbnail {
+opacity: .3;
+transition: .1s;
+}
+
+   .sign figcaption {
+    margin: 0 0 5px 160px; /* Отступы вокруг абзаца */
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+   }
+   .lign{
+       float: right; /* Выравнивание по правому краю */
+    border: 0 solid #333; /* Параметры рамки */
+    padding: 2px; /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+    background: none; /* Цвет фона */ 
+   }
+   .lign figcaption{
+     margin: 0 0 5px 700px; /* Отступы вокруг абзаца */
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+   }
+   .ut{
+  margin-left:230px;
+  position:absolute;
+  color:white;
+}
+.tu{
+  margin-left:685px;
+  position:absolute;
+}
+.tus{
+  position:absolute;
+  margin-left:230px;
+  margin-top:450px;
+}
+.tusa{
+  position:absolute;
+  margin-left:685px;
+  margin-top:450px;
+}
+.uts{
+  margin-left:230px;
+  position:absolute;
+  margin-top:1000px;
+  color:white;
+}
+.sut{
+  margin-left:685px;
+  position:absolute;
+  margin-top:1000px;
+}
+.maps{
+  display:flex;
+  margin-top:15px;
+  margin-left:40px;
+  width:740px;
+  height:300px;
+}

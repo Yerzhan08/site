@@ -1,0 +1,106 @@
+nav{
+  margin-left:350px;
+  display:inline-flex;
+  font-size:16pt;
+  font-family:'Oswald',sans-serif;
+    }
+    a{
+text-decoration:none;
+  text-align:center;
+  width:120px;
+  color:black;
+}
+a:nth-child(1) ~ div{
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+  }
+
+a:nth-child(2):hover {
+  color:red;
+}
+
+a:nth-child(4):hover {
+  color:green;
+}
+.aw{
+  margin-bottom:50px;
+}
+.eb{
+  margin-top:50px;
+  width:100%;
+}
+.text{
+  display:flex;
+}
+  .agash{
+  font-color:black;
+  display:flex;
+  margin-top:200px;
+  margin-bottom:75px;
+  margin-left:100px;
+}
+.a{
+  margin-left:175px;
+}
+.b{
+  margin-left:175px;
+}
+.c{
+  margin-left:175px;
+}
+.d{
+  margin-left:175px;
+}
+.es{
+  margin-top:1400px;
+  width:100%;
+}
+.product {
+  background-color: white;
+  display:flex;
+}
+a:hover img.thumbnail {
+opacity: .3;
+transition: .1s;
+}
+
+   .ut{
+  margin-left:520px;
+  position:absolute;
+  color:white;
+}
+.tu{
+  margin-left:975px;
+  position:absolute;
+}
+.tus{
+  position:absolute;
+  margin-left:520px;
+  margin-top:490px;
+  color:white;
+}
+.tusa{
+  position:absolute;
+  margin-left:975px;
+  margin-top:490px;
+  color:black;
+}
+.uts{
+  margin-left:520px;
+  position:absolute;
+  margin-top:1000px;
+  color:white;
+}
+.sut{
+  margin-left:975px;
+  position:absolute;
+  margin-top:1000px;
+  color:black;
+}
+.maps{
+  display:flex;
+  margin-top:15px;
+  margin-left:40px;
+  width:740px;
+  height:300px;
+}

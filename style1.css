@@ -1,0 +1,149 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+nav{
+  margin-left:350px;
+  display:inline-flex;
+  font-size:16pt;
+    }
+    a{
+text-decoration:none;
+  text-align:center;
+  width:120px;
+  color:black;
+}
+
+a:nth-child(1) ~ div{
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+  }
+
+a:nth-child(2):hover {
+  color:red;
+}
+
+a:nth-child(4):hover {
+  color:green;
+}
+div{
+  width:120px; 
+  height:2px;
+  background:#fff;
+}
+.aw{
+  margin-bottom:50px;
+}
+.eb{
+  margin-top:590px;
+  width:100%;
+}
+ ul {
+    width: 180px; /* Ширина меню */
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: Oswald, sans-serif; /* Рубленый шрифт для текста меню */
+    font-size: 13pt; /* Размер названий в пункте меню */
+    position:absolute;
+   }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 80px; /* Сдвигаем подменю вправо */
+    margin-top: -2em; /* Сдвигаем подменю вверх */
+   }
+   li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: black; /* Цвет текста */
+    border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+    background-color: white; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   }
+   li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: black; /* Цвет фона активного пункта */
+    display:block;
+   }
+   li:hover ul { 
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; /* Линия снизу */
+   }
+   .ana{
+    border-right:20px solid black;
+   }
+.product {
+  background-color: white;
+  display:flex;
+}
+a:hover img.thumbnail {
+opacity: .3;
+transition: .3s;
+}
+.ut{
+  margin-left:230px;
+  position:absolute;
+}
+.tu{
+  margin-left:680px;
+  position:absolute;
+}
+.tus{
+  position:absolute;
+  margin-left:525px;
+  margin-top:745px;
+}
+.tusa{
+  position:absolute;
+  margin-left:995px;
+  margin-top:745px;
+}
+.es{
+  margin-top:1475px;
+  width:100%;
+}
+.maps{
+  display:flex;
+  margin-top:15px;
+  margin-left:40px;
+  width:740px;
+  height:300px;
+}
+.agash{
+  font-color:black;
+  display:flex;
+  margin-top:200px;
+  margin-bottom:75px;
+  margin-left:100px;
+}
+.a{
+  margin-left:175px;
+}
+.b{
+  margin-left:175px;
+}
+.c{
+  margin-left:175px;
+}
+.d{
+  margin-left:175px;
+}
+ @media (max-width: 660px) {
+.menu-main {
+  float: none;
+  padding-top: 20px;
+}
+.top-menu {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.menu-main a {padding: 0 10px;}
+.menu-main a:before {transform: rotate(45deg) translateX(-6px);}
+}
+@media (max-width: 600px) {
+.menu-main li {display: block;}
+}
